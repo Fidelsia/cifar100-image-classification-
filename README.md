@@ -11,7 +11,7 @@ The project was completed and run on Google Colab using GPU support.
 
 ### Part 1.1 — Transfer Learning with VGG16
 
-#### Feature Extraction
+#### a. Feature Extraction
 VGG16 was used as a fixed feature extractor with custom Dense layers trained on top. Three iterations of the architecture were explored, adjusting the number of layers, dropout, batch normalisation, and early stopping.
 
 | Iteration | Key Changes | Test Accuracy |
@@ -25,7 +25,7 @@ VGG16 was used as a fixed feature extractor with custom Dense layers trained on 
 
 ---
 
-#### Fine-Tuning Upper VGG16 Block
+#### b. Fine-Tuning Upper VGG16 Block
 The top four layers of VGG16 were unfrozen and retrained alongside custom Dense layers, using a low learning rate (1e-5) with RMSprop. Data augmentation was then applied and iteratively adjusted.
 
 | Iteration | Key Changes | Test Accuracy |
@@ -40,7 +40,7 @@ The top four layers of VGG16 were unfrozen and retrained alongside custom Dense 
 
 ---
 
-### Full VGG16 Network Training
+#### c. Full VGG16 Network Training
 All layers of VGG16 were made trainable and retrained with a low learning rate, comprehensive data augmentation, and batch normalisation.
 
 | Iteration | Key Changes | Test Accuracy |
