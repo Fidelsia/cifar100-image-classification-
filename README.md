@@ -5,6 +5,9 @@ This project explores image classification on the CIFAR-100 dataset, a challengi
 
 The project was completed and run on Google Colab using GPU support.
 
+## Code
+The full implementation can be found in the notebook: [`Neural_Network_Image_Classification_.ipynb`](Neural_Network_Image_Classification_.ipynb)
+
 ---
 
 ## Approaches & Results
