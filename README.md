@@ -44,11 +44,9 @@ CIFAR-100 — available via [Keras datasets](https://www.tensorflow.org/api_docs
 - 32x32 pixel images
 
 ---
-
 ## Tools & Libraries
 - **Language:** Python
 - **Framework:** TensorFlow, Keras
 - **Environment:** Google Colab (GPU)
 
 ---
-
